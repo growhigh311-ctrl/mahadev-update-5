@@ -7,9 +7,49 @@ export interface BlogPost {
   icon: string;
   content: string;
   readTime: string;
+  customLink?: string;
+  buttonText?: string;
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "mastering-live-cricket-betting",
+    customLink: "/mastering-live-cricket-betting/",
+    buttonText: "Show More",
+    title: "In-Play Betting: How to Master the Momentum",
+    excerpt: "The game changes every ball. In-play (live) betting is where the action—and the opportunity—truly lies. Read our guide to mastering the momentum.",
+    date: "July 23, 2026",
+    category: "Cricket",
+    icon: "📈",
+    readTime: "5 min read",
+    content: `
+      <p>The game changes every ball. In-play (live) betting is where the action—and the opportunity—truly lies. Unlike pre-match betting, where you are locked into your decision, in-play betting allows you to adapt to the reality of the game, hedge your losses, or seize opportunities when a team’s odds spike due to a temporary collapse.</p>
+      
+      <h3>Reading the Momentum</h3>
+      <p>Momentum in cricket is real, but it is often misunderstood.</p>
+      <ul>
+        <li><strong>The Middle Overs:</strong> In ODIs, the period between overs 15 and 40 is often where matches are won or lost. Watch for how the batting team handles spin in these middle stages. If the run rate stays stagnant, the odds for the batting team will rise—this is often the best moment to look for a "value" entry if you believe they have the firepower to explode in the final 10 overs.</li>
+        <li><strong>Wicket Volatility:</strong> Markets react instantly to wickets. However, not every wicket changes the outcome. Understanding the difference between a "game-changing" wicket (e.g., the top order) and a "transitional" wicket allows you to stay calm while the market panics.</li>
+      </ul>
+      
+      <h3>Live Hedging</h3>
+      <p>Hedging is the art of securing profit or minimizing loss before the final ball is bowled.</p>
+      <ul>
+        <li><strong>The Strategy:</strong> If you placed a pre-match bet on a team to win at odds of 2.00, and they dominate the first half of the game, their odds will drop significantly (e.g., to 1.30). You can now place a counter-bet on the opposing team at higher odds to lock in a guaranteed profit, regardless of which team wins the match.</li>
+        <li><strong>Discipline:</strong> Hedging is the hallmark of a disciplined bettor. It transforms betting from a game of "all or nothing" into a strategy of consistent, calculated gains.</li>
+      </ul>
+      
+      <h3>Weather & DLS</h3>
+      <p>In 2026, many matches are still affected by weather. Keep a close eye on the DLS (Duckworth-Lewis-Stern) par score. If a match is likely to be shortened, the team batting second often becomes the favorite. Having a DLS calculator tool ready during the match is a significant advantage.</p>
+      
+      <h3>FAQs</h3>
+      <p><strong>What is hedging in cricket betting?</strong><br/>
+      Hedging involves placing additional bets on alternative outcomes during a live match to secure a profit or limit potential losses, regardless of the match's final result.</p>
+      
+      <p><strong>Is in-play betting riskier?</strong><br/>
+      It can be, because the odds change rapidly. However, it also offers more opportunities to react to the actual flow of the game rather than relying on pre-match predictions.</p>
+    `
+  },
   {
     slug: "benefits-of-verified-id-2025",
     title: "Benefits of Having a Verified Lotus Book ID in 2025",
