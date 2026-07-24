@@ -14,34 +14,29 @@ const stats = [
 ];
 
 const games = [
-  { title: "Cricket Betting", desc: "Live IPL, International matches, T20 leagues with competitive odds and real-time markets.", icon: "🏏" },
-  { title: "Football Leagues", desc: "Bet on Premier League, Champions League, La Liga, and Indian Super League events.", icon: "⚽" },
-  { title: "Live Casino", desc: "Enjoy live dealer streams of Teen Patti, Andar Bahar, Roulette, and Poker from home.", icon: "🃏" },
-  { title: "Tennis Matches", desc: "Place real-time bets on Grand Slams, ATP tour, and WTA tour tournaments.", icon: "🎾" },
-  { title: "Virtual Sports", desc: "Fast-paced digital cricket, football and racing simulations available 24 hours a day.", icon: "🎮" }
+  { title: "Cricket", desc: "Live IPL betting, International Cricket Matches with attractive odds.", icon: "🏏" },
+  { title: "T20 leagues, Football leagues, Live Casino", desc: "Teen Patti live stream, Andar Bahar, Roulette & Poker, Tennis betting, and Virtual sports betting are also available.", icon: "🎮" }
 ];
 
 const features = [
-  { title: "Secure Payments", desc: "UPI, GPay, Paytm, PhonePe, and local bank transfers with 256-bit encryption.", icon: Shield },
-  { title: "Fast Payouts", desc: "Direct bank transfer withdrawals processed in 5-10 minutes flat.", icon: Zap },
-  { title: "Data Insights", desc: "Free prediction models, player stats, and historical head-to-head analysis.", icon: TrendingUp },
-  { title: "24/7 WhatsApp help", desc: "Dedicated personal relationship managers to assist you instantly.", icon: Headphones }
+  { title: "Secure Payments", desc: "UPI, GPay, Paytm, PhonePe, Local Bank Transfers with 256-bit industry-standard encryption.", icon: Shield },
+  { title: "Instant Withdrawals", desc: "Bank transfers processed directly within 5-10 minutes.", icon: Zap },
+  { title: "Free Data Analytics", desc: "Access to exclusive prediction models, player stats, and head-to-head data.", icon: TrendingUp },
+  { title: "24/7 WhatsApp Support", desc: "Personal Relationship Managers for round-the-clock assistance.", icon: Headphones }
 ];
 
 const reviews = [
-  { name: "Rahul S.", location: "Mumbai", comment: "Withdrawal credited within 5 minutes! Best platform I've used.", rating: 5 },
-  { name: "Priya K.", location: "Delhi", comment: "Got my ID the same day. Super smooth process and amazing support team!", rating: 5 },
-  { name: "Vikram M.", location: "Bangalore", comment: "IPL betting experience was incredible. Real-time updates and fast payouts.", rating: 5 },
-  { name: "Ankit T.", location: "Pune", comment: "100% genuine platform. I trust Mahadev Book for all my betting.", rating: 5 },
-  { name: "Suresh P.", location: "Hyderabad", comment: "Best customer service! They resolved my issue in minutes via WhatsApp.", rating: 5 },
-  { name: "Riya N.", location: "Chennai", comment: "Mujhe bahut accha experience mila. Payout fast aur secure hai.", rating: 5 }
+  { name: "Rahul S.", location: "Mumbai", comment: "Withdrew money in 5 mins itself! This is the best platform I've ever used.", rating: 5 },
+  { name: "Priya K.", location: "Delhi", comment: "Received my ID the same day. Smooth process and tremendous support!", rating: 5 },
+  { name: "Vikram M.", location: "Bangalore", comment: "IPL betting was fantastic. Amazing support and quick payouts.", rating: 5 },
+  { name: "Ankit T.", location: "Pune", comment: "It's a real platform. I really appreciate Mahadev Book's services.", rating: 5 }
 ];
 
 const trustPoints = [
-  { title: "Expertise", desc: "Built by sports & gaming veterans with 15+ years of proven innovation.", icon: Award },
-  { title: "Experience", desc: "Trusted by 1.2M+ users since 2018 with over 60M successful transactions.", icon: Check },
-  { title: "Authority", desc: "Recognized as India's leading betting platform by top industry awards.", icon: Shield },
-  { title: "Trust", desc: "SSL encrypted, PCI-DSS compliant, and fair play certified by iTech Labs.", icon: Lock }
+  { title: "Expertise", desc: "Sports & Gaming Industry veterans with 15+ years of innovation and excellence.", icon: Award },
+  { title: "Experience", desc: "Trusted by 1.2 million bettors since 2018 and 60+ million transactions processed securely.", icon: Check },
+  { title: "Authority", desc: "India's most popular betting portal acclaimed by reputable global media platforms.", icon: Shield },
+  { title: "Trusted", desc: "SSL encryption, PCI-DSS compliance, and iTech Labs-certified fair gaming practices.", icon: Lock }
 ];
 
 const faqs = [
@@ -76,10 +71,10 @@ export default function Home() {
             Play.<br/>Win.<br/><span className="text-teal-400">Withdraw.</span>
           </h1>
           <p className="text-zinc-400 text-lg mb-10 max-w-md leading-relaxed">
-            Experience the next generation of online betting with India's most secure platform.
+            Betting experience with India's most trusted bookmaker.
           </p>
           <a href={whatsappUrl} className="inline-flex items-center gap-3 bg-teal-500 text-[#020a0a] font-black px-8 py-4 w-max hover:bg-teal-400 transition-colors uppercase tracking-wider">
-            Start Winning <ArrowRight />
+            Begin winning <ArrowRight />
           </a>
         </div>
         <div className="w-full lg:w-1/2 relative bg-zinc-900 border-l border-teal-500/20 flex flex-col justify-center p-10">

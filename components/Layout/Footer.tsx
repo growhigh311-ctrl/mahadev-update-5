@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="space-y-5">
             <Logo />
             <p className="text-zinc-400 leading-relaxed font-light">
-              India's most trusted sports insights and fantasy analytics platform. Providing live odds, player analysis, and verified betting IDs nationwide since 2018.
+              India's most reliable sports betting and fantasy sports analytics portal. Offering live sports odds and betting IDs across the country since 2018.
             </p>
             <div className="flex gap-3 text-amber-500">
               <Shield className="w-5 h-5 opacity-80" />
@@ -63,6 +63,7 @@ export default function Footer() {
             <h4 className="text-white font-semibold uppercase tracking-wider text-xs border-b border-amber-500/20 pb-2">
               Supported Platforms
             </h4>
+            <p className="text-xs text-zinc-400 mb-2">Live Cricket, Football, Tennis & Virtual Sports Betting IDs are available in</p>
             <ul className="space-y-2.5">
               <li><span className="text-zinc-500">•</span> Gold365 Exchange</li>
               <li><span className="text-zinc-500">•</span> Laser247 Official</li>
@@ -79,7 +80,7 @@ export default function Footer() {
               Get Started
             </h4>
             <p className="text-zinc-400 font-light leading-relaxed">
-              Create your secure betting profile in under 2 minutes and start placing smart bets today.
+              Create a secure betting account within 2 minutes and begin betting with India's most trusted betting company.
             </p>
             <a
               href={whatsappUrl}
@@ -104,7 +105,7 @@ export default function Footer() {
             &copy; {currentYear} Mahadev Book. All rights reserved.
           </p>
           <p className="text-zinc-600 max-w-xl text-center md:text-right font-light">
-            Mahadev Book is an educational sports insights platform. All content is for informational purposes only. Play responsibly and at your own risk.
+            Mahadev Book is purely an educational sports portal, the information provided is only for the reference of the visitors. The users are requested to bet responsibly and we are not liable for their decisions while betting on any bookmaker. All rights reserved.
           </p>
         </div>
       </div>
