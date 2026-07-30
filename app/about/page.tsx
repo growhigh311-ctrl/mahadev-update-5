@@ -1,9 +1,16 @@
-'use client';
-
 import React from 'react';
 import Link from 'next/link';
 import Reveal from '../../components/UI/Reveal';
 import { Award, Shield, CheckCircle, Clock } from 'lucide-react';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Mahadev Bookie | Trusted Online Betting Platform",
+  description: "Learn about Mahadev Bookie, our mission, secure betting platform, and why thousands of users trust us for cricket betting, casino and sports betting.",
+  alternates: {
+    canonical: "/about/",
+  }
+};
 
 const stats = [
   { value: "1.2M+", label: "Verified Users", desc: "Across India" },

@@ -1,8 +1,15 @@
-'use client';
-
 import React from 'react';
 import Reveal from '../../components/UI/Reveal';
 import { Smartphone, Download, Shield, Zap, Info, Play } from 'lucide-react';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Mahadev Betting App | Download & Bet Anytime",
+  description: "Download the Mahadev Betting App to enjoy live cricket betting, casino games, real-time sports betting, secure transactions, and instant payouts.",
+  alternates: {
+    canonical: "/mahadev-betting-app/",
+  }
+};
 
 const appFeatures = [
   { title: "Live Betting Exchange", desc: "Bet on cricket, football, tennis and kabaddi while the action unfolds in real-time." },

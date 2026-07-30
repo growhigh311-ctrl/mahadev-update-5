@@ -5,8 +5,8 @@ import { Calendar, Clock, ChevronLeft } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mastering In-Play Cricket Betting: A Guide to Momentum",
-  description: "Learn how to read match momentum, hedge your bets, and profit from live cricket betting in 2026. Expert tips for in-play success.",
+  title: "Mastering Live Cricket Betting | Tips, Strategies & Guide",
+  description: "Learn how to master live cricket betting with expert strategies, in-play betting tips, bankroll management, and insights to make smart decisions.",
   alternates: {
     canonical: "/mastering-live-cricket-betting/",
   }

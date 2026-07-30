@@ -1,8 +1,15 @@
-'use client';
-
 import React from 'react';
 import Reveal from '../../components/UI/Reveal';
 import { ShieldAlert, BookOpen, Key, CheckCircle, Smartphone, ArrowRight } from 'lucide-react';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Mahadev Book ID | Get Your Cricket Betting ID Instantly",
+  description: "Apply for your Mahadev Book ID today and enjoy instant account activation, live cricket betting, IPL betting, casino games, and quick withdrawals.",
+  alternates: {
+    canonical: "/mahadev-book-id/",
+  }
+};
 
 const steps = [
   { num: "1", title: "WhatsApp Request", desc: "Initiate contact with a verified book representative on WhatsApp." },

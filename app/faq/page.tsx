@@ -1,8 +1,15 @@
-'use client';
-
-import React, { useState } from 'react';
+import React from 'react';
 import Reveal from '../../components/UI/Reveal';
 import { HelpCircle, Plus, Minus } from 'lucide-react';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Mahadev Bookie FAQs | Betting ID, Registration & Support",
+  description: "Find answers to frequently asked questions about Mahadev Bookie accounts, betting IDs, deposits, withdrawals, sports, and casino gaming.",
+  alternates: {
+    canonical: "/faq/",
+  }
+};
 
 const fullFaqs = [
   {
@@ -64,12 +71,6 @@ const fullFaqs = [
 ];
 
 export default function FAQPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
-
-  const toggleFaq = (index: number) => {
-    setOpenFaq(openFaq === index ? null : index);
-  };
-
   return (
     <div className="min-h-screen bg-black py-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -90,26 +91,25 @@ export default function FAQPage() {
         {/* FAQs */}
         <div className="space-y-4">
           {fullFaqs.map((faq, index) => {
-            const isOpen = openFaq === index;
             return (
               <Reveal key={index} yOffset={25} delay={index * 0.05}>
-                <div className="glass-card rounded-xl border border-zinc-850 overflow-hidden transition-all duration-300">
-                  <button
-                    onClick={() => toggleFaq(index)}
-                    className="w-full px-6 py-5 flex items-center justify-between text-left text-white hover:text-amber-400 transition-colors"
+                <details className="glass-card rounded-xl border border-zinc-850 overflow-hidden transition-all duration-300 group [&_summary::-webkit-details-marker]:hidden">
+                  <summary
+                    className="w-full px-6 py-5 flex items-center justify-between text-left text-white hover:text-amber-400 transition-colors cursor-pointer list-none select-none"
                   >
-                    <span className="font-semibold text-base font-serif flex items-center gap-2">
+                    <span className="font-semibold text-base font-serif flex items-center gap-2 pr-4">
                       <HelpCircle className="w-4.5 h-4.5 text-amber-500 flex-shrink-0" />
                       {faq.q}
                     </span>
-                    {isOpen ? <Minus className="w-5 h-5 text-amber-500" /> : <Plus className="w-5 h-5 text-amber-500" />}
-                  </button>
-                  {isOpen && (
-                    <div className="px-6 pb-6 pt-1 text-zinc-405 text-sm font-light leading-relaxed border-t border-zinc-900 bg-zinc-950/20">
-                      {faq.a}
-                    </div>
-                  )}
-                </div>
+                    <span className="text-amber-500 flex-shrink-0">
+                      <Plus className="w-5 h-5 group-open:hidden" />
+                      <Minus className="w-5 h-5 hidden group-open:block" />
+                    </span>
+                  </summary>
+                  <div className="px-6 pb-6 pt-4 text-zinc-400 text-sm font-light leading-relaxed border-t border-zinc-900 bg-zinc-950/20">
+                    {faq.a}
+                  </div>
+                </details>
               </Reveal>
             );
           })}

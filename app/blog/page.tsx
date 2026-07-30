@@ -1,10 +1,17 @@
-'use client';
-
 import React from 'react';
 import Link from 'next/link';
 import Reveal from '../../components/UI/Reveal';
 import { blogPosts } from '../../lib/blogData';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Mahadev Bookie Blog | Betting Tips, Cricket News & Guides",
+  description: "Read expert betting tips, IPL predictions, cricket news, casino strategies, and online betting guides to improve your betting odds.",
+  alternates: {
+    canonical: "/blog/",
+  }
+};
 
 export default function BlogListingPage() {
   return (
