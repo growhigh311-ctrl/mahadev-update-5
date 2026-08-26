@@ -88,11 +88,11 @@ export default async function BlogPostPage({ params }: PageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Back Link */}
         <div className="mb-8">
-          <Link 
-            href="/blog" 
+          <Link
+            href="/blog"
             className="inline-flex items-center gap-1 text-zinc-400 hover:text-amber-500 text-sm font-semibold transition-colors group"
           >
             <ChevronLeft className="w-4 h-4 group-hover:-translate-x-0.5 transition-transform" />
@@ -127,7 +127,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         </div>
 
         {/* Content body */}
-        <article 
+        <article
           className="prose prose-invert max-w-none prose-amber prose-headings:font-serif prose-headings:font-bold prose-headings:text-white prose-p:text-zinc-350 prose-p:leading-relaxed prose-p:font-light prose-p:mb-6 prose-a:text-amber-400 hover:prose-a:text-amber-300 prose-ul:list-disc prose-ul:pl-6 prose-ul:mb-6 prose-li:text-zinc-350 prose-li:font-light prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-4"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
@@ -139,7 +139,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             Get your verified Mahadev Book ID on WhatsApp in under 5 minutes and start placing smart bets now.
           </p>
           <div className="pt-2">
-            <a 
+            <a
               href="https://wa.me/917589045547"
               target="_blank"
               rel="noopener noreferrer"
