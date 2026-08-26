@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { blogPosts } from '../lib/blogData';
 
 export default function sitemap() {
   const baseUrl = 'https://mahadevbookie.shop';
@@ -28,13 +29,23 @@ export default function sitemap() {
   }
 
   walk(appDir);
+
+  blogPosts.forEach((post) => {
+    if (post.customLink) {
+      const cleanLink = post.customLink.replace(/^\/|\/$/g, '');
+      routes.push(cleanLink);
+    } else {
+      routes.push(`blog/${post.slug}`);
+    }
+  });
+
   const uniqueRoutes = Array.from(new Set(routes));
   return uniqueRoutes.map((route) => {
     const url = route === '' ? baseUrl : `${baseUrl}/${route}`;
     return {
       url: url,
       lastModified: new Date(),
-      changeFrequency: 'daily' ,
+      changeFrequency: 'daily' as const,
       priority: route === '' ? 1.0 : 0.8,
     };
   });

@@ -2,6 +2,11 @@ import { blogPosts } from "../../../lib/blogData";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Calendar, Clock, ChevronLeft } from "lucide-react";
+import type { Metadata } from "next";
+
+interface PageProps {
+  params: Promise<{ slug: string }>;
+}
 
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
@@ -9,8 +14,38 @@ export async function generateStaticParams() {
   }));
 }
 
-interface PageProps {
-  params: Promise<{ slug: string }>;
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const resolvedParams = await params;
+  const post = blogPosts.find((p) => p.slug === resolvedParams.slug);
+
+  if (!post) {
+    return {
+      title: "Blog Post Not Found | Mahadev Bookie",
+    };
+  }
+
+  const pageUrl = `https://mahadevbookie.shop/blog/${post.slug}`;
+
+  return {
+    title: `${post.title} | Mahadev Bookie`,
+    description: post.excerpt,
+    alternates: {
+      canonical: pageUrl,
+    },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      url: pageUrl,
+      siteName: "Mahadev Bookie",
+      type: "article",
+      locale: "en_IN",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+    },
+  };
 }
 
 export default async function BlogPostPage({ params }: PageProps) {
@@ -21,8 +56,37 @@ export default async function BlogPostPage({ params }: PageProps) {
     notFound();
   }
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "description": post.excerpt,
+    "datePublished": post.date,
+    "author": {
+      "@type": "Organization",
+      "name": "Mahadev Book Analyst",
+      "url": "https://mahadevbookie.shop"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Mahadev Bookie",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://mahadevbookie.shop/favicon.ico"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://mahadevbookie.shop/blog/${post.slug}`
+    }
+  };
+
   return (
     <div className="min-h-screen bg-black py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Back Link */}

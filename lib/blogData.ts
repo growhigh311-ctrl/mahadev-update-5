@@ -13,6 +13,128 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "womens-asia-cup-2026-teams-schedule-india-vs-pakistan-odds-predictions",
+    title: "Women’s Asia Cup 2026: Teams, Schedule, India vs Pakistan Odds & Match Predictions",
+    excerpt: "Get the complete Women’s Asia Cup 2026 guide with official teams, match schedules, India vs Pakistan odds, key player analytics, and match predictions.",
+    date: "August 27, 2026",
+    category: "Cricket",
+    icon: "🏆",
+    readTime: "6 min read",
+    content: `
+      <p>The <strong>Women’s Asia Cup 2026</strong> is set to bring together eight of Asia's leading women's cricket teams for a T20 competition in the UAE. The tournament begins on <strong>August 28, 2026</strong>, with the final scheduled for <strong>September 13</strong>. The biggest group-stage fixture will see <strong>India Women face Pakistan Women on September 5</strong> at the Dubai International Cricket Stadium.</p>
+      
+      <p>With several competitive teams and a high-profile India-Pakistan contest on the schedule, the tournament offers plenty of interest for cricket followers and those tracking Women’s Asia Cup odds and match predictions.</p>
+      
+      <h3>Women’s Asia Cup 2026 Teams</h3>
+      <p>Eight teams are participating in the 2026 tournament and have been divided into two groups.</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        <div class="bg-zinc-900/60 p-4 rounded-xl border border-amber-500/20">
+          <h4 class="font-bold text-amber-400 mb-2">Group A</h4>
+          <ul class="list-disc pl-5 text-zinc-300 space-y-1">
+            <li>India</li>
+            <li>Pakistan</li>
+            <li>Thailand</li>
+            <li>Hong Kong, China</li>
+          </ul>
+        </div>
+        <div class="bg-zinc-900/60 p-4 rounded-xl border border-amber-500/20">
+          <h4 class="font-bold text-amber-400 mb-2">Group B</h4>
+          <ul class="list-disc pl-5 text-zinc-300 space-y-1">
+            <li>Sri Lanka</li>
+            <li>Bangladesh</li>
+            <li>United Arab Emirates</li>
+            <li>Indonesia</li>
+          </ul>
+        </div>
+      </div>
+      
+      <p>Each team will play the other teams in its group during the league stage. The top two teams from each group will advance to the semi-finals.</p>
+      <p><strong>India</strong> enter the tournament as the most successful team in Women’s Asia Cup history, having won seven of the nine previous editions. <strong>Sri Lanka</strong> are the defending champions after winning the 2024 tournament.</p>
+      
+      <h3>Women’s Asia Cup 2026 Schedule</h3>
+      <p>All matches are scheduled to be played at the <strong>Dubai International Cricket Stadium</strong>.</p>
+      
+      <div class="overflow-x-auto my-6 border border-zinc-800 rounded-xl">
+        <table class="w-full text-left border-collapse text-sm min-w-[500px]">
+          <thead>
+            <tr class="bg-amber-500/10 border-b border-amber-500/20 text-amber-400">
+              <th class="p-3 font-semibold">Date</th>
+              <th class="p-3 font-semibold">Match</th>
+              <th class="p-3 font-semibold">Time (IST)</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-850 text-zinc-300">
+            <tr class="hover:bg-zinc-900/40"><td class="p-3">August 28</td><td class="p-3 font-medium text-white">Thailand vs Hong Kong, China</td><td class="p-3">8:00 PM</td></tr>
+            <tr class="hover:bg-zinc-900/40"><td class="p-3">August 29</td><td class="p-3 font-medium text-white">Sri Lanka vs UAE</td><td class="p-3">8:00 PM</td></tr>
+            <tr class="hover:bg-zinc-900/40"><td class="p-3">August 30</td><td class="p-3 font-medium text-white">India vs Thailand</td><td class="p-3">8:00 PM</td></tr>
+            <tr class="hover:bg-zinc-900/40"><td class="p-3">August 31</td><td class="p-3 font-medium text-white">Bangladesh vs Indonesia</td><td class="p-3">8:00 PM</td></tr>
+            <tr class="hover:bg-zinc-900/40"><td class="p-3">September 1</td><td class="p-3 font-medium text-white">Pakistan vs Thailand</td><td class="p-3">8:00 PM</td></tr>
+            <tr class="hover:bg-zinc-900/40"><td class="p-3">September 2</td><td class="p-3 font-medium text-white">Sri Lanka vs Indonesia</td><td class="p-3">8:00 PM</td></tr>
+            <tr class="hover:bg-zinc-900/40"><td class="p-3">September 3</td><td class="p-3 font-medium text-white">India vs Hong Kong, China</td><td class="p-3">8:00 PM</td></tr>
+            <tr class="hover:bg-zinc-900/40"><td class="p-3">September 4</td><td class="p-3 font-medium text-white">UAE vs Indonesia</td><td class="p-3">8:00 PM</td></tr>
+            <tr class="hover:bg-amber-500/10 bg-amber-500/5"><td class="p-3 font-bold text-amber-400">September 5</td><td class="p-3 font-bold text-amber-300">India vs Pakistan ⭐</td><td class="p-3 font-bold text-amber-400">8:00 PM</td></tr>
+            <tr class="hover:bg-zinc-900/40"><td class="p-3">September 6</td><td class="p-3 font-medium text-white">Sri Lanka vs Bangladesh</td><td class="p-3">8:00 PM</td></tr>
+            <tr class="hover:bg-zinc-900/40"><td class="p-3">September 7</td><td class="p-3 font-medium text-white">Pakistan vs Hong Kong, China</td><td class="p-3">8:00 PM</td></tr>
+            <tr class="hover:bg-zinc-900/40"><td class="p-3">September 8</td><td class="p-3 font-medium text-white">Bangladesh vs UAE</td><td class="p-3">8:00 PM</td></tr>
+            <tr class="hover:bg-zinc-900/40 font-semibold text-amber-300"><td class="p-3">September 10</td><td class="p-3">Semi-final 1</td><td class="p-3">8:00 PM</td></tr>
+            <tr class="hover:bg-zinc-900/40 font-semibold text-amber-300"><td class="p-3">September 11</td><td class="p-3">Semi-final 2</td><td class="p-3">8:00 PM</td></tr>
+            <tr class="hover:bg-amber-500/10 font-bold text-amber-400 bg-amber-500/5"><td class="p-3">September 13</td><td class="p-3">Final 🏆</td><td class="p-3">8:00 PM</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The <strong>India-Pakistan match is scheduled for September 5</strong> and is expected to be one of the most closely followed fixtures of the group stage.</p>
+      
+      <h3>India vs Pakistan: The Main Attraction</h3>
+      <p>The India-Pakistan women's rivalry will once again be one of the major talking points around the tournament.</p>
+      <p>India have historically held the advantage in T20I meetings between the two sides. They have won 14 of the 17 previous T20I encounters, although past results do not guarantee the outcome of the next match.</p>
+      <p>India's squad is led by <strong>Harmanpreet Kaur</strong>, with the team entering the competition after a strong period of international cricket. One notable absence is Jemimah Rodrigues, who has been ruled out after suffering a hamstring injury, with Pratika Rawal named as her replacement.</p>
+      <p>Pakistan will look to challenge India's historical advantage with a competitive squad and the opportunity to perform in high-pressure conditions.</p>
+      
+      <h3>India vs Pakistan Odds</h3>
+      <p>The India vs Pakistan Women’s Asia Cup odds will depend on the bookmaker and can change as the match approaches. Playing XI announcements, player availability, recent form and market sentiment can all influence the prices.</p>
+      <p>India are likely to attract strong support from the market because of their tournament record and head-to-head advantage. However, Pakistan cannot be discounted in a T20 match, where a strong powerplay or a short spell of effective bowling can quickly change the game.</p>
+      
+      <p>Common markets associated with a major T20 fixture can include:</p>
+      <ul>
+        <li><strong>Match winner</strong></li>
+        <li><strong>Tournament winner</strong></li>
+        <li><strong>Top batter</strong></li>
+        <li><strong>Top bowler</strong></li>
+        <li><strong>Team total</strong></li>
+        <li><strong>Total match runs</strong></li>
+        <li><strong>First-innings score</strong></li>
+        <li><strong>Winning margin</strong></li>
+      </ul>
+      <p>Rather than considering odds as guaranteed outcomes, they are better understood as market estimates of probability.</p>
+      
+      <h3>Players to Watch</h3>
+      <p><strong>Harmanpreet Kaur:</strong> India's captain remains an important figure in the middle order and will have an additional leadership role during the tournament. Her experience in pressure matches could be particularly valuable against Pakistan.</p>
+      <p><strong>Smriti Mandhana:</strong> Mandhana's ability to score quickly during the powerplay makes her one of India's most important batting options. A strong start from India's top order could significantly influence the team's chances.</p>
+      <p><strong>Deepti Sharma:</strong> Deepti provides India with an important all-round option. Her ability to contribute with both bat and ball gives the team additional flexibility when selecting its playing XI.</p>
+      <p><strong>Pakistan's Key Players:</strong> Pakistan will need strong contributions from their top-order batters and experienced bowling group to challenge India. Their ability to restrict India's scoring during the middle overs could be one of the key battles of the match.</p>
+      
+      <h3>What Could Decide India vs Pakistan?</h3>
+      <ul>
+        <li><strong>Powerplay batting:</strong> The team that makes the better start could gain an early advantage.</li>
+        <li><strong>Spin bowling:</strong> Conditions in Dubai can make spin an important tactical weapon, particularly during the middle overs.</li>
+        <li><strong>Middle-order performance:</strong> T20 matches can turn quickly if a team loses several wickets between overs 7 and 15.</li>
+        <li><strong>Death bowling:</strong> The final four overs could have a major impact on the eventual total and match result.</li>
+        <li><strong>Pressure management:</strong> India-Pakistan matches traditionally attract enormous attention. Players who handle the pressure and execute their plans could have a significant advantage.</li>
+      </ul>
+      
+      <h3>Women’s Asia Cup 2026 Prediction</h3>
+      <p>India appear to have a strong case to challenge for the title, particularly given their record in the competition. However, Sri Lanka enter as defending champions, while Pakistan and Bangladesh have the potential to produce competitive performances.</p>
+      <p>For the India-Pakistan match specifically, India may start as the stronger side based on historical results and overall tournament pedigree. Nevertheless, T20 cricket is unpredictable, and the final playing XI, pitch conditions and performances on the day will matter more than historical statistics alone.</p>
+      <p>Cricket followers looking for further sports information and market updates can visit MahadevBookie.</p>
+      
+      <h3>Final Thoughts</h3>
+      <p>The Women’s Asia Cup 2026 provides an excellent mix of established teams, emerging cricket nations and high-profile rivalries. With the tournament beginning on August 28 and the India-Pakistan clash scheduled for September 5, interest is likely to build throughout the group stage.</p>
+      <p>India's experience makes them one of the teams to watch, but defending champions Sri Lanka and competitive sides such as Pakistan and Bangladesh could make the tournament closely contested.</p>
+      <p>For anyone following Women’s Asia Cup betting odds and match predictions, it is important to check the latest team news, confirmed playing XIs, player form and conditions before assessing any match. Odds can change and should never be treated as guarantees. Always follow the applicable laws in your location and make responsible decisions.</p>
+    `
+  },
+  {
     slug: "mastering-live-cricket-betting",
     customLink: "/mastering-live-cricket-betting/",
     buttonText: "Show More",
