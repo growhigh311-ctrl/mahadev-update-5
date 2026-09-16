@@ -5,15 +5,15 @@ import { Calendar, Clock, ChevronLeft } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mastering Live Cricket Betting | Tips, Strategies & Guide",
-  description: "Learn how to master live cricket betting with expert strategies, in-play betting tips, bankroll management, and insights to make smart decisions.",
+  title: "Mastering Live Cricket Gaming | Tips, Strategies & Guide",
+  description: "Learn how to master live cricket gaming with expert strategies, in-play gaming tips, bankroll management, and insights to make smart decisions.",
   alternates: {
-    canonical: "/mastering-live-cricket-betting/",
+    canonical: "/mastering-live-cricket-gaming/",
   }
 };
 
-export default function MasteringLiveCricketBettingPage() {
-  const post = blogPosts.find((p) => p.slug === "mastering-live-cricket-betting");
+export default function MasteringLiveCricketGamingPage() {
+  const post = blogPosts.find((p) => p.slug === "mastering-live-cricket-gaming");
 
   if (!post) {
     notFound();

@@ -23,15 +23,15 @@ export const metadata: Metadata = {
   verification: {
     google: "LWP8JEdqRLw2lsy_izXalQ2n_aVlWsaTGeYUH-F4DNw",
   },
-  title: "Mahadev Bookie | Online Cricket Betting, Casino & Sports Betting",
-  description: "Join Mahadev Bookie for secure online cricket betting, live sports betting, casino games, instant betting IDs, competitive odds, and fast withdrawals in India.",
+  title: "Mahadev Bookie | Online Cricket Gaming, Casino & Sports Gaming",
+  description: "Join Mahadev Bookie for secure online cricket gaming, live sports gaming, casino games, instant gaming IDs, competitive odds, and fast withdrawals in India.",
   keywords: "Mahadev Book, Mahadev Bookie, Mahadev Book ID, Mahadev Book Login, Mahadev Book Register, Buy Mahadev Book ID",
   authors: [{ name: "Mahadev Bookie" }],
   creator: "Mahadev Bookie",
   robots: "index, follow",
   openGraph: {
-    title: "Mahadev Bookie | Online Cricket Betting, Casino & Sports Betting",
-    description: "Join Mahadev Bookie for secure online cricket betting, live sports betting, casino games, instant betting IDs, competitive odds, and fast withdrawals in India.",
+    title: "Mahadev Bookie | Online Cricket Gaming, Casino & Sports Gaming",
+    description: "Join Mahadev Bookie for secure online cricket gaming, live sports gaming, casino games, instant gaming IDs, competitive odds, and fast withdrawals in India.",
     url: "https://mahadevbookie.shop",
     siteName: "Mahadev Bookie",
     locale: "en_IN",
@@ -48,7 +48,7 @@ const organizationSchema = {
       "name": "Mahadev Bookie",
       "alternateName": "Mahadev Book",
       "url": "https://mahadevbookie.shop/",
-      "description": "Mahadev Bookie provides secure online cricket betting IDs, sports betting, live casino games and betting services for users across India.",
+      "description": "Mahadev Bookie provides secure online cricket gaming IDs, sports gaming, live casino games and gaming services for users across India.",
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "Customer Support",
@@ -80,8 +80,8 @@ const organizationSchema = {
       "@type": "WebPage",
       "@id": "https://mahadevbookie.shop/#webpage",
       "url": "https://mahadevbookie.shop/",
-      "name": "Mahadev Bookie | Online Cricket Betting, Casino & Sports Betting",
-      "description": "Join Mahadev Bookie for secure online cricket betting, live sports betting, casino games, instant betting IDs, competitive odds, and fast withdrawals in India.",
+      "name": "Mahadev Bookie | Online Cricket Gaming, Casino & Sports Gaming",
+      "description": "Join Mahadev Bookie for secure online cricket gaming, live sports gaming, casino games, instant gaming IDs, competitive odds, and fast withdrawals in India.",
       "isPartOf": {
         "@id": "https://mahadevbookie.shop/#website"
       },
@@ -108,15 +108,15 @@ const organizationSchema = {
     {
       "@type": "Service",
       "@id": "https://mahadevbookie.shop/#service",
-      "name": "Online Cricket Betting & Casino Services",
+      "name": "Online Cricket Gaming & Casino Services",
       "provider": {
         "@id": "https://mahadevbookie.shop/#organization"
       },
-      "description": "Mahadev Bookie offers online cricket betting IDs, sports betting, live casino games, poker access and fast deposits and withdrawals for users across India.",
+      "description": "Mahadev Bookie offers online cricket gaming IDs, sports gaming, live casino games, poker access and fast deposits and withdrawals for users across India.",
       "serviceType": [
-        "Cricket Betting ID",
-        "Sports Betting",
-        "Live Cricket Betting",
+        "Cricket Gaming ID",
+        "Sports Gaming",
+        "Live Cricket Gaming",
         "Online Casino",
         "Teen Patti",
         "Poker",
@@ -144,9 +144,9 @@ const organizationSchema = {
         "Blog",
         "Contact",
         "FAQ",
-        "Mahadev Betting App",
+        "Mahadev Gaming App",
         "Mahadev Book ID",
-        "Mastering Live Cricket Betting"
+        "Mastering Live Cricket Gaming"
       ],
       "url": [
         "https://mahadevbookie.shop/",
@@ -154,15 +154,15 @@ const organizationSchema = {
         "https://mahadevbookie.shop/blog",
         "https://mahadevbookie.shop/contact",
         "https://mahadevbookie.shop/faq",
-        "https://mahadevbookie.shop/mahadev-betting-app",
+        "https://mahadevbookie.shop/mahadev-gaming-app",
         "https://mahadevbookie.shop/mahadev-book-id",
-        "https://mahadevbookie.shop/mastering-live-cricket-betting"
+        "https://mahadevbookie.shop/mastering-live-cricket-gaming"
       ]
     },
     {
       "@type": "RegisterAction",
       "@id": "https://mahadevbookie.shop/#register",
-      "name": "Register for a Mahadev Bookie Betting ID",
+      "name": "Register for a Mahadev Bookie Gaming ID",
       "target": {
         "@type": "EntryPoint",
         "urlTemplate": "https://wa.me/917589045547",
@@ -176,7 +176,7 @@ const organizationSchema = {
       },
       "result": {
         "@type": "Thing",
-        "name": "Mahadev Bookie Betting ID"
+        "name": "Mahadev Bookie Gaming ID"
       }
     }
   ]
@@ -189,10 +189,10 @@ const faqSchema = {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is Mahadev Book Online Betting ID?",
+      "name": "What is Mahadev Book Online Gaming ID?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Mahadev Book Online Betting ID is a verified account that provides access to cricket betting, sports betting, casino games, poker and other betting services. Users can deposit funds, place bets and manage their betting activities securely."
+        "text": "The Mahadev Book Online Gaming ID is a verified account that provides access to cricket gaming, sports gaming, casino games, poker and other gaming services. Users can deposit funds, place bets and manage their gaming activities securely."
       }
     },
     {
@@ -200,15 +200,15 @@ const faqSchema = {
       "name": "How does Mahadev Book work?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Mahadev Book helps users obtain a betting ID through WhatsApp. After registration, users can add funds using supported payment methods, access betting platforms with their credentials and request withdrawals through customer support."
+        "text": "Mahadev Book helps users obtain a gaming ID through WhatsApp. After registration, users can add funds using supported payment methods, access gaming platforms with their credentials and request withdrawals through customer support."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I register for a new Online Betting ID?",
+      "name": "How do I register for a new Online Gaming ID?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Click any Get ID button on the website to connect with a verified WhatsApp agent. Share your basic details, choose your deposit amount and your betting ID is generally created within a few minutes."
+        "text": "Click any Get ID button on the website to connect with a verified WhatsApp agent. Share your basic details, choose your deposit amount and your gaming ID is generally created within a few minutes."
       }
     },
     {
@@ -216,7 +216,7 @@ const faqSchema = {
       "name": "What games can I play with my Mahadev Book ID?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Mahadev Book ID gives access to cricket betting, football betting, tennis, e-sports, Teen Patti, Andar Bahar, poker, live casino games and other popular betting markets."
+        "text": "Mahadev Book ID gives access to cricket gaming, football gaming, tennis, e-sports, Teen Patti, Andar Bahar, poker, live casino games and other popular gaming markets."
       }
     },
     {
@@ -224,7 +224,7 @@ const faqSchema = {
       "name": "How do I deposit money into my Mahadev Book account?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Deposits can be made using verified UPI IDs, Google Pay or bank transfers provided by the support team. Once payment is confirmed, betting funds are credited to the account."
+        "text": "Deposits can be made using verified UPI IDs, Google Pay or bank transfers provided by the support team. Once payment is confirmed, gaming funds are credited to the account."
       }
     },
     {
@@ -232,7 +232,7 @@ const faqSchema = {
       "name": "How do I withdraw my winnings?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Withdrawals can be requested through WhatsApp by sharing your betting ID and withdrawal amount. After verification, funds are transferred to your registered UPI ID or bank account."
+        "text": "Withdrawals can be requested through WhatsApp by sharing your gaming ID and withdrawal amount. After verification, funds are transferred to your registered UPI ID or bank account."
       }
     },
     {
@@ -240,7 +240,7 @@ const faqSchema = {
       "name": "Is Mahadev Book legal in India?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Online betting laws in India differ from state to state. Users should review the regulations applicable in their state before participating in online betting activities."
+        "text": "Online gaming laws in India differ from state to state. Users should review the regulations applicable in their state before participating in online gaming activities."
       }
     },
     {
@@ -248,7 +248,7 @@ const faqSchema = {
       "name": "Is Mahadev Book safe and trusted?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Mahadev Book uses secure systems and encrypted connections to help protect user information and transactions, providing a reliable betting experience for its users."
+        "text": "Mahadev Book uses secure systems and encrypted connections to help protect user information and transactions, providing a reliable gaming experience for its users."
       }
     }
   ]

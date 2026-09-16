@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="space-y-5">
             <Logo />
             <p className="text-zinc-400 leading-relaxed font-light">
-              India's most reliable sports betting and fantasy sports analytics portal. Offering live sports odds and betting IDs across the country since 2018.
+              India's most reliable sports gaming and fantasy sports analytics portal. Offering live sports odds and gaming IDs across the country since 2018.
             </p>
             <div className="flex gap-3 text-amber-500">
               <Shield className="w-5 h-5 opacity-80" />
@@ -44,7 +44,7 @@ export default function Footer() {
                 <Link href="/blog" className="hover:text-amber-400 transition-colors">Insights Blog</Link>
               </li>
               <li>
-                <Link href="/mahadev-betting-app" className="hover:text-amber-400 transition-colors">Mahadev Betting App</Link>
+                <Link href="/mahadev-gaming-app" className="hover:text-amber-400 transition-colors">Mahadev Gaming App</Link>
               </li>
               <li>
                 <Link href="/mahadev-book-id" className="hover:text-amber-400 transition-colors">Mahadev Book ID</Link>
@@ -63,12 +63,12 @@ export default function Footer() {
             <h4 className="text-white font-semibold uppercase tracking-wider text-xs border-b border-amber-500/20 pb-2">
               Supported Platforms
             </h4>
-            <p className="text-xs text-zinc-400 mb-2">Live Cricket, Football, Tennis & Virtual Sports Betting IDs are available in</p>
+            <p className="text-xs text-zinc-400 mb-2">Live Cricket, Football, Tennis & Virtual Sports Gaming IDs are available in</p>
             <ul className="space-y-2.5">
               <li><span className="text-zinc-500">•</span> Gold365 Exchange</li>
               <li><span className="text-zinc-500">•</span> Laser247 Official</li>
-              <li><span className="text-zinc-500">•</span> IPL Cricket Betting ID</li>
-              <li><span className="text-zinc-500">•</span> Online Betting ID India</li>
+              <li><span className="text-zinc-500">•</span> IPL Cricket Gaming ID</li>
+              <li><span className="text-zinc-500">•</span> Online Gaming ID India</li>
               <li><span className="text-zinc-500">•</span> Mahadev Book Online Book</li>
               <li><span className="text-zinc-500">•</span> Mahadev Book Official</li>
             </ul>
@@ -80,7 +80,7 @@ export default function Footer() {
               Get Started
             </h4>
             <p className="text-zinc-400 font-light leading-relaxed">
-              Create a secure betting account within 2 minutes and begin betting with India's most trusted betting company.
+              Create a secure gaming account within 2 minutes and begin gaming with India's most trusted gaming company.
             </p>
             <a
               href={whatsappUrl}
@@ -105,7 +105,7 @@ export default function Footer() {
             &copy; {currentYear} Mahadev Book. All rights reserved.
           </p>
           <p className="text-zinc-600 max-w-xl text-center md:text-right font-light">
-            Mahadev Book is purely an educational sports portal, the information provided is only for the reference of the visitors. The users are requested to bet responsibly and we are not liable for their decisions while betting on any bookmaker. All rights reserved.
+            Mahadev Book is purely an educational sports portal, the information provided is only for the reference of the visitors. The users are requested to bet responsibly and we are not liable for their decisions while gaming on any bookmaker. All rights reserved.
           </p>
         </div>
       </div>

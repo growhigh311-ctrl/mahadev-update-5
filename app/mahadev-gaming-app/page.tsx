@@ -4,15 +4,15 @@ import { Smartphone, Download, Shield, Zap, Info, Play } from 'lucide-react';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mahadev Betting App | Download & Bet Anytime",
-  description: "Download the Mahadev Betting App to enjoy live cricket betting, casino games, real-time sports betting, secure transactions, and instant payouts.",
+  title: "Mahadev Gaming App | Download & Bet Anytime",
+  description: "Download the Mahadev Gaming App to enjoy live cricket gaming, casino games, real-time sports gaming, secure transactions, and instant payouts.",
   alternates: {
-    canonical: "/mahadev-betting-app/",
+    canonical: "/mahadev-gaming-app/",
   }
 };
 
 const appFeatures = [
-  { title: "Live Betting Exchange", desc: "Bet on cricket, football, tennis and kabaddi while the action unfolds in real-time." },
+  { title: "Live Gaming Exchange", desc: "Bet on cricket, football, tennis and kabaddi while the action unfolds in real-time." },
   { title: "Instant ID Activation", desc: "Sign up and receive your login credentials in less than 5 minutes on WhatsApp." },
   { title: "Fast Encrypted Cashouts", desc: "Priority withdrawal request processing directly within the app, hitting your account in minutes." },
   { title: "Intuitive Interface", desc: "Clean navigation, fast load times, and custom dashboards designed for Indian users." }
@@ -31,7 +31,7 @@ const activeMatches = [
   { type: "⚽ Live Football", match: "Chelsea vs Liverpool", odds: "CHE: 2.40 | LIV: 1.65" }
 ];
 
-export default function BettingAppPage() {
+export default function GamingAppPage() {
   const whatsappUrl = "https://wa.me/917589045547";
 
   return (
@@ -47,7 +47,7 @@ export default function BettingAppPage() {
             </div>
             
             <h1 className="text-4xl md:text-5xl font-serif font-black text-white mb-4">
-              Mahadev Book <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Betting App</span>
+              Mahadev Book <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">Gaming App</span>
             </h1>
             <p className="text-zinc-400 text-sm max-w-xl mx-auto font-light">
               Download the official Mahadev Book application for Android & iOS to enjoy live sports and casino payouts on the go.
@@ -61,10 +61,10 @@ export default function BettingAppPage() {
           <Reveal xOffset={-45}>
             <div className="space-y-6">
               <h2 className="text-2xl font-serif font-bold text-white leading-snug">
-                Download the Mahadev Betting App – India's Most Trusted Mobile Betting Exchange
+                Download the Mahadev Gaming App – India's Most Trusted Mobile Gaming Exchange
               </h2>
               <p className="text-zinc-350 leading-relaxed font-light">
-                Looking for a secure and lightning-fast online betting app? The official Mahadev Book mobile application brings live markets, expert prediction models, and seamless deposits to your fingertips.
+                Looking for a secure and lightning-fast online gaming app? The official Mahadev Book mobile application brings live markets, expert prediction models, and seamless deposits to your fingertips.
               </p>
               <p className="text-zinc-400 leading-relaxed font-light">
                 Compatible with both Android and iOS, the mobile app is optimized for low-bandwidth environments, ensuring you never miss a cricket delivery or card flip.

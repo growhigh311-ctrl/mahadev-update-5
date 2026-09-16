@@ -7,8 +7,8 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mahadev Bookie | Online Cricket Betting, Casino & Sports Betting",
-  description: "Join Mahadev Bookie for secure online cricket betting, live sports betting, casino games, instant betting IDs, competitive odds, and fast withdrawals in India.",
+  title: "Mahadev Bookie | Online Cricket Gaming, Casino & Sports Gaming",
+  description: "Join Mahadev Bookie for secure online cricket gaming, live sports gaming, casino games, instant gaming IDs, competitive odds, and fast withdrawals in India.",
   alternates: {
     canonical: "/"
   }
@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 const whatsappUrl = "https://wa.me/917589045547";
 
 const heroBullets = [
-  "Instant Betting ID Registration",
-  "Live Cricket & Sports Betting",
+  "Instant Gaming ID Registration",
+  "Live Cricket & Sports Gaming",
   "Fast UPI Deposits & Withdrawals",
   "Secure & Encrypted Transactions",
   "24/7 WhatsApp Customer Support",
@@ -28,7 +28,7 @@ const heroBullets = [
 const whyChooseUs = [
   {
     title: "Instant Account Activation",
-    desc: "Receive your verified betting ID within minutes and start betting without unnecessary delays."
+    desc: "Receive your verified gaming ID within minutes and start gaming without unnecessary delays."
   },
   {
     title: "Multiple Sports Markets",
@@ -53,9 +53,9 @@ const whyChooseUs = [
 ];
 
 const officialPlatformAccess = [
-  "Live Cricket Betting",
-  "Football Betting",
-  "Tennis Betting",
+  "Live Cricket Gaming",
+  "Football Gaming",
+  "Tennis Gaming",
   "Casino Games",
   "Teen Patti",
   "Poker",
@@ -91,7 +91,7 @@ const creationSteps = [
   {
     step: "Step 2",
     title: "Share Your Details",
-    desc: "Provide your basic information required to create your betting ID."
+    desc: "Provide your basic information required to create your gaming ID."
   },
   {
     step: "Step 3",
@@ -101,7 +101,7 @@ const creationSteps = [
   {
     step: "Step 4",
     title: "Deposit & Start Playing",
-    desc: "Add funds using your preferred payment method and begin enjoying live sports betting and casino games."
+    desc: "Add funds using your preferred payment method and begin enjoying live sports gaming and casino games."
   }
 ];
 
@@ -109,12 +109,12 @@ const customerReviews = [
   {
     name: "Rahul S.",
     loc: "Delhi",
-    text: "The registration process was incredibly fast. I received my betting ID within minutes and withdrawals have always been smooth."
+    text: "The registration process was incredibly fast. I received my gaming ID within minutes and withdrawals have always been smooth."
   },
   {
     name: "Aman K.",
     loc: "Punjab",
-    text: "I mainly use Mahadev Bookie for live cricket betting. The odds are competitive and customer support responds quickly."
+    text: "I mainly use Mahadev Bookie for live cricket gaming. The odds are competitive and customer support responds quickly."
   },
   {
     name: "Vikram P.",
@@ -129,10 +129,10 @@ const customerReviews = [
 ];
 
 const whatIsBookieAccess = [
-  "Live Cricket Betting",
-  "IPL Betting",
-  "Football Betting",
-  "Tennis Betting",
+  "Live Cricket Gaming",
+  "IPL Gaming",
+  "Football Gaming",
+  "Tennis Gaming",
   "Casino Games",
   "Live Casino Tables",
   "Teen Patti",
@@ -144,15 +144,15 @@ const whatIsBookieAccess = [
 const faqs = [
   {
     q: "1. What is Mahadev Bookie?",
-    a: "Mahadev Bookie is an online betting ID provider that allows users to access sports betting and casino platforms through a verified account."
+    a: "Mahadev Bookie is an online gaming ID provider that allows users to access sports gaming and casino platforms through a verified account."
   },
   {
-    q: "2. How do I get my betting ID?",
-    a: "Simply contact our support team through WhatsApp, submit your basic information, complete verification, and receive your betting ID within minutes."
+    q: "2. How do I get my gaming ID?",
+    a: "Simply contact our support team through WhatsApp, submit your basic information, complete verification, and receive your gaming ID within minutes."
   },
   {
     q: "3. Which sports can I bet on?",
-    a: "You can access betting markets for cricket, football, tennis, kabaddi, horse racing, and several other sports depending on available events."
+    a: "You can access gaming markets for cricket, football, tennis, kabaddi, horse racing, and several other sports depending on available events."
   },
   {
     q: "4. Which payment methods are accepted?",
@@ -172,7 +172,7 @@ const faqs = [
   },
   {
     q: "8. Is registration free?",
-    a: "Yes. Creating your betting ID through Mahadev Bookie is simple and does not require any registration fee."
+    a: "Yes. Creating your gaming ID through Mahadev Bookie is simple and does not require any registration fee."
   }
 ];
 
@@ -186,13 +186,13 @@ export default function Home() {
             <Reveal xOffset={-30}>
               <div className="w-16 h-1 bg-teal-500 rounded-full mb-6"></div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight font-serif">
-                Mahadev Bookie – Get Your <span className="text-teal-400">Official Online Betting ID</span> in Minutes
+                Mahadev Bookie – Get Your <span className="text-teal-400">Official Online Gaming ID</span> in Minutes
               </h1>
             </Reveal>
 
             <Reveal xOffset={-30} delay={0.1}>
               <p className="text-zinc-400 text-lg leading-relaxed max-w-2xl">
-                Join Mahadev Bookie and unlock a secure, fast, and reliable betting experience. Whether you enjoy live cricket betting, football, casino games, or other popular sports, our verified betting IDs provide quick access with smooth deposits, instant withdrawals, and 24/7 customer support.
+                Join Mahadev Bookie and unlock a secure, fast, and reliable gaming experience. Whether you enjoy live cricket gaming, football, casino games, or other popular sports, our verified gaming IDs provide quick access with smooth deposits, instant withdrawals, and 24/7 customer support.
               </p>
             </Reveal>
 
@@ -215,7 +215,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="bg-teal-500 text-[#020a0a] font-black px-8 py-4 hover:bg-teal-400 transition-colors uppercase tracking-wider flex items-center gap-2"
                 >
-                  Get Betting ID <ArrowRight className="w-5 h-5" />
+                  Get Gaming ID <ArrowRight className="w-5 h-5" />
                 </a>
                 <a
                   href={whatsappUrl}
@@ -284,12 +284,12 @@ export default function Home() {
             </Reveal>
             <Reveal delay={0.1}>
               <p className="text-teal-400 font-bold uppercase tracking-wider text-sm">
-                Experience Fast, Secure & Hassle-Free Online Betting
+                Experience Fast, Secure & Hassle-Free Online Gaming
               </p>
             </Reveal>
             <Reveal delay={0.2}>
               <p className="text-zinc-400 text-sm leading-relaxed">
-                Thousands of players choose Mahadev Bookie because we focus on providing a smooth betting experience from registration to withdrawals. Whether you're new to online betting or an experienced player, our platform offers everything you need under one account.
+                Thousands of players choose Mahadev Bookie because we focus on providing a smooth gaming experience from registration to withdrawals. Whether you're new to online gaming or an experienced player, our platform offers everything you need under one account.
               </p>
             </Reveal>
           </div>
@@ -312,28 +312,28 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Mahadev Bookie – Official Betting ID Platform Section */}
+      {/* Mahadev Bookie – Official Gaming ID Platform Section */}
       <section className="py-24 px-4 bg-[#020a0a] border-t border-teal-500/10">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 space-y-6">
             <Reveal xOffset={-30}>
               <h2 className="text-3xl md:text-4xl font-serif font-black text-white">
-                Mahadev Bookie – <span className="text-teal-400">Official Betting ID Platform</span>
+                Mahadev Bookie – <span className="text-teal-400">Official Gaming ID Platform</span>
               </h2>
             </Reveal>
             <Reveal xOffset={-30} delay={0.1}>
               <p className="text-teal-400 font-bold uppercase tracking-wider text-xs">
-                Your Trusted Partner for Online Betting IDs
+                Your Trusted Partner for Online Gaming IDs
               </p>
             </Reveal>
             <Reveal xOffset={-30} delay={0.2}>
               <p className="text-zinc-400 text-sm leading-relaxed">
-                Mahadev Bookie is an online betting ID provider designed for users looking for quick registration, secure payments, and access to popular sports betting and casino platforms. We simplify the registration process so you can start enjoying your favourite betting markets with confidence.
+                Mahadev Bookie is an online gaming ID provider designed for users looking for quick registration, secure payments, and access to popular sports gaming and casino platforms. We simplify the registration process so you can start enjoying your favourite gaming markets with confidence.
               </p>
             </Reveal>
             <Reveal xOffset={-30} delay={0.3}>
               <p className="text-zinc-350 font-semibold text-sm">
-                With one verified betting ID, you can access:
+                With one verified gaming ID, you can access:
               </p>
             </Reveal>
             <Reveal xOffset={-30} delay={0.4}>
@@ -347,7 +347,7 @@ export default function Home() {
             </Reveal>
             <Reveal xOffset={-30} delay={0.5}>
               <p className="text-zinc-550 text-xs italic">
-                Our goal is to provide a reliable, secure, and user-friendly betting experience backed by responsive customer service and efficient account management. (Mahadev Book)
+                Our goal is to provide a reliable, secure, and user-friendly gaming experience backed by responsive customer service and efficient account management. (Mahadev Book)
               </p>
             </Reveal>
           </div>
@@ -389,7 +389,7 @@ export default function Home() {
             </Reveal>
             <Reveal delay={0.2}>
               <p className="text-zinc-400 text-sm leading-relaxed">
-                Managing your betting funds should be simple. That's why Mahadev Bookie supports multiple trusted payment methods for quick deposits and withdrawals.
+                Managing your gaming funds should be simple. That's why Mahadev Bookie supports multiple trusted payment methods for quick deposits and withdrawals.
               </p>
             </Reveal>
           </div>
@@ -431,7 +431,7 @@ export default function Home() {
           <div className="text-center">
             <Reveal>
               <p className="text-zinc-550 text-xs italic">
-                Our payment system is designed to help players enjoy uninterrupted betting with minimal waiting time.
+                Our payment system is designed to help players enjoy uninterrupted gaming with minimal waiting time.
               </p>
             </Reveal>
           </div>
@@ -449,7 +449,7 @@ export default function Home() {
             </Reveal>
             <Reveal delay={0.1}>
               <p className="text-teal-400 font-bold uppercase tracking-wider text-xs">
-                Start Betting in Four Simple Steps
+                Start Gaming in Four Simple Steps
               </p>
             </Reveal>
           </div>
@@ -536,7 +536,7 @@ export default function Home() {
             </Reveal>
             <Reveal xOffset={-30} delay={0.2}>
               <p className="text-zinc-400 text-sm leading-relaxed">
-                Mahadev Bookie is an online betting ID service that helps players access sports betting and casino platforms through a verified account. Instead of going through lengthy registration procedures, users can quickly obtain a betting ID and start participating in various betting markets.
+                Mahadev Bookie is an online gaming ID service that helps players access sports gaming and casino platforms through a verified account. Instead of going through lengthy registration procedures, users can quickly obtain a gaming ID and start participating in various gaming markets.
               </p>
             </Reveal>
             <Reveal xOffset={-30} delay={0.3}>
@@ -555,7 +555,7 @@ export default function Home() {
             </Reveal>
             <Reveal xOffset={-30} delay={0.5}>
               <p className="text-zinc-550 text-xs italic">
-                Our focus is on providing a secure registration process, fast payment support, reliable customer service, and a smooth betting experience for users. (Mahadev Book)
+                Our focus is on providing a secure registration process, fast payment support, reliable customer service, and a smooth gaming experience for users. (Mahadev Book)
               </p>
             </Reveal>
           </div>
@@ -624,10 +624,10 @@ export default function Home() {
 
           <Reveal delay={0.1}>
             <p className="text-zinc-400 text-sm leading-relaxed max-w-2xl mx-auto">
-              Take the first step towards a seamless online betting experience. Register your Mahadev Bookie ID in just a few minutes and enjoy access to live sports betting, casino games, fast deposits, secure withdrawals, and dedicated customer support.
+              Take the first step towards a seamless online gaming experience. Register your Mahadev Bookie ID in just a few minutes and enjoy access to live sports gaming, casino games, fast deposits, secure withdrawals, and dedicated customer support.
             </p>
             <p className="text-zinc-350 text-sm font-semibold max-w-2xl mx-auto pt-3">
-              Whether you're interested in cricket, football, casino games, or live betting, Mahadev Bookie provides a smooth and reliable way to get started. Get Your Official Betting ID Now
+              Whether you're interested in cricket, football, casino games, or live gaming, Mahadev Bookie provides a smooth and reliable way to get started. Get Your Official Gaming ID Now
             </p>
           </Reveal>
 
